@@ -6,7 +6,7 @@
 
 .LeftSideBar{
   padding-left: 1rem;
-  padding-top: 1rem;
+  padding-top: 0.78rem;
   display: flex;
   flex-direction: column;
 }
@@ -14,11 +14,11 @@
 .LeftSideBarButton{
   background-color: black;
   border-radius: 5px;
-  padding-left: 1.5rem;
+  padding-left: 0.5rem;
   text-align: left;
-  font-size: 1rem;
+  font-size: 0.85rem;
   color: white;
-  height: 40px;
+  height: 2.5rem;
   width: 200px;
   border: none;
   display: flex;
@@ -31,21 +31,21 @@
 }
 
 .IconStyle {
-  margin-right: 1.25rem;
+  margin-right: 1.5rem;
   font-size: 1.5rem;
 }
 
 .TopBar{
   display:flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1.17rem;
 }
 
 .YoutubeMenu{
-  padding-left: 1.25rem;
-  width: auto;
-  height: 2rem;
-  padding-bottom: 1rem;
+  margin-left: 0.35rem;
+  width: 1.8rem;
+  height: 1.88rem;
+  margin-bottom: 1.70rem;
 }
 
 .YoutubeMenu:hover{
@@ -54,7 +54,7 @@
 }
 
 .YouTubeLogo{
-  height: 20px;
-  padding-bottom: 1rem;
-  width: auto;
+  height: 1.47rem;
+  margin-bottom: 1.70rem;
+  width: 6.73rem;
 }
