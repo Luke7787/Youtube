@@ -25,6 +25,7 @@
   align-items: center;
   justify-content: flex-start;
   cursor: pointer;
+  font-weight: 400;
 }
 
 .LeftSideBarButton:hover{
@@ -71,6 +72,15 @@
   max-width: 13.3rem;
 }
 
+.Divider2 {
+  border: none;
+  height: 1px;
+  background-color: #3f3f3f; /* a soft gray */
+  margin: 13px 0 12px 0;
+  transform: translateX(-18px);
+  max-width: 14rem;
+}
+
 .LeftSideBarButton .YouIcon {
   margin-left: 0.5rem; /* Adjust the value as needed */
 }
@@ -84,4 +94,21 @@
 
 .subscription_section{
   color: white;
+  font-size: 0.93rem;
+  margin-left: 0.5rem;
+  transform: translateY(-5px);
+  margin-bottom: 3.5px;
+}
+
+.SubscriptionIcon {
+  height: 24px;
+  width: 24px;
+  margin-right: 24px;
+  border-radius: 50%; /* optional, if you want a circular icon */
+  object-fit: cover;
+}
+
+.Subscription{
+  color: rgb(225, 0, 45);
+  transform: translateX(49px) translateY(4px);
 }
