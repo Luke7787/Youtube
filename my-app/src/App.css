@@ -24,6 +24,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  cursor: pointer;
 }
 
 .LeftSideBarButton:hover{
@@ -45,6 +46,7 @@
   height: 1.47rem;
   margin-bottom: 1.65rem;
   width: 6.73rem;
+  cursor: pointer;
 }
 
 .YoutubeMenu{
@@ -52,6 +54,7 @@
   width: 1.8rem;
   height: 1.88rem;
   margin-bottom: 1.65rem;
+  cursor: pointer;
 }
 
 .YoutubeMenu:hover{
@@ -59,3 +62,26 @@
   border-radius: 90px;
 }
 
+.Divider {
+  border: none;
+  height: 1px;
+  background-color: #3f3f3f; /* a soft gray */
+  margin: 11px 0; /* some spacing above and below */
+  transform: translateX(-4px);
+  max-width: 13.3rem;
+}
+
+.LeftSideBarButton .YouIcon {
+  margin-left: 0.5rem; /* Adjust the value as needed */
+}
+
+.YouText{
+  font-family: "Roboto","Arial",sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 1px;
+}
+
+.subscription_section{
+  color: white;
+}
