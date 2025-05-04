@@ -110,5 +110,15 @@
 
 .Subscription{
   color: rgb(225, 0, 45);
-  transform: translateX(49px) translateY(4px);
+  flex-shrink: 0;
+  margin-left: 2px;
+  transform: translateY(4px)
+}
+
+.SubscriptionText {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 115px;
+  min-width: 115px;
 }

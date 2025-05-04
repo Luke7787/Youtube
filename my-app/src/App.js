@@ -3,6 +3,10 @@ import menu from './images/menu.png';
 import abc from './images/abc.jpg';
 import animal from './images/animal.jpg';
 import national from './images/national.jpeg';
+import daily from './images/daily.jpg';
+import eye from './images/eye.jpeg';
+import anna from './images/anna.jpeg';
+import big from './images/big.jpeg';
 import './App.css';
 
 
@@ -232,7 +236,7 @@ function App() {
         {/* ABC New's */}
         <button className="LeftSideBarButton">
           <img src={abc} alt="ABC News" className="SubscriptionIcon" />
-          ABC News
+          <span className="SubscriptionText">ABC News</span>
 
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -253,7 +257,7 @@ function App() {
         {/* Animal Planet */}
         <button className="LeftSideBarButton">
           <img src={animal} alt="Animal Planet" className="SubscriptionIcon" />
-          Animal Planet
+          <span className="SubscriptionText">Animal Planet</span>
 
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -271,10 +275,10 @@ function App() {
 
         </button>
 
-        {/* National Geographic */}
+        {/* anna solves */}
         <button className="LeftSideBarButton">
-          <img src={national} alt="National Geographic" className="SubscriptionIcon" />
-          National Geographic
+          <img src={anna} alt="anna solves" className="SubscriptionIcon" />
+          <span className="SubscriptionText">anna solves</span>
 
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -282,7 +286,7 @@ function App() {
             height="24"
             viewBox="0 0 24 24"
             width="24"
-            className="IconStyle Subscription"
+            className="Subscription"
           >
             <path clip-rule="evenodd" 
             d="M9 8c0 .55-.45 1-1 1s-1-.45-1-1 .45-1 1-1 1 .45 1 1Zm1.11 2.13.71.71C11.55 10.11 12 9.11 12 8c0-1.11-.45-2.11-1.18-2.84l-.71.71c.55.55.89 1.3.89 2.13 0 .83-.34 1.58-.89 2.13Zm-4.93.71.71-.71C5.34 9.58 5 8.83 5 8c0-.83.34-1.58.89-2.13l-.71-.71C4.45 5.89 4 6.89 4 8c0 1.11.45 2.11 1.18 2.84Zm7.05 1.41.71.71C14.21 11.69 15 9.94 15 8s-.79-3.69-2.06-4.96l-.71.71C13.32 4.84 14 6.34 14 8c0 1.66-.68 3.16-1.77 4.25Zm-9.17.71.71-.71C2.68 11.16 2 9.66 2 8c0-1.66.68-3.16 1.77-4.25l-.71-.71C1.79 4.31 1 6.06 1 8s.79 3.69 2.06 4.96Z"
@@ -290,6 +294,108 @@ function App() {
             />
           </svg>
 
+        </button>
+
+        {/* BigMarvel The Simulator */}
+        <button className="LeftSideBarButton">
+          <img src={big} alt="BigMarvel The Simulator" className="SubscriptionIcon" />
+          <span className="SubscriptionText">BigMarvel The Simulator</span>
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            className="Subscription"
+          >
+            <path clip-rule="evenodd" 
+            d="M9 8c0 .55-.45 1-1 1s-1-.45-1-1 .45-1 1-1 1 .45 1 1Zm1.11 2.13.71.71C11.55 10.11 12 9.11 12 8c0-1.11-.45-2.11-1.18-2.84l-.71.71c.55.55.89 1.3.89 2.13 0 .83-.34 1.58-.89 2.13Zm-4.93.71.71-.71C5.34 9.58 5 8.83 5 8c0-.83.34-1.58.89-2.13l-.71-.71C4.45 5.89 4 6.89 4 8c0 1.11.45 2.11 1.18 2.84Zm7.05 1.41.71.71C14.21 11.69 15 9.94 15 8s-.79-3.69-2.06-4.96l-.71.71C13.32 4.84 14 6.34 14 8c0 1.66-.68 3.16-1.77 4.25Zm-9.17.71.71-.71C2.68 11.16 2 9.66 2 8c0-1.66.68-3.16 1.77-4.25l-.71-.71C1.79 4.31 1 6.06 1 8s.79 3.69 2.06 4.96Z"
+            fill-rule="evenodd"
+            />
+          </svg>
+
+        </button>
+
+        {/* Daily Dose Of Internet */}
+        <button className="LeftSideBarButton">
+          <img src={daily} alt="Daily Dose Of Internet" className="SubscriptionIcon" />
+          <span className="SubscriptionText">Daily Dose Of Internet</span>
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            className="Subscription"
+          >
+            <path clip-rule="evenodd" 
+            d="M9 8c0 .55-.45 1-1 1s-1-.45-1-1 .45-1 1-1 1 .45 1 1Zm1.11 2.13.71.71C11.55 10.11 12 9.11 12 8c0-1.11-.45-2.11-1.18-2.84l-.71.71c.55.55.89 1.3.89 2.13 0 .83-.34 1.58-.89 2.13Zm-4.93.71.71-.71C5.34 9.58 5 8.83 5 8c0-.83.34-1.58.89-2.13l-.71-.71C4.45 5.89 4 6.89 4 8c0 1.11.45 2.11 1.18 2.84Zm7.05 1.41.71.71C14.21 11.69 15 9.94 15 8s-.79-3.69-2.06-4.96l-.71.71C13.32 4.84 14 6.34 14 8c0 1.66-.68 3.16-1.77 4.25Zm-9.17.71.71-.71C2.68 11.16 2 9.66 2 8c0-1.66.68-3.16 1.77-4.25l-.71-.71C1.79 4.31 1 6.06 1 8s.79 3.69 2.06 4.96Z"
+            fill-rule="evenodd"
+            />
+          </svg>
+
+        </button>
+
+        {/* jacksepticeye */}
+        <button className="LeftSideBarButton">
+          <img src={eye} alt="jacksepticeye" className="SubscriptionIcon" />
+          <span className="SubscriptionText">jacksepticeye</span>
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            className="Subscription"
+          >
+            <path clip-rule="evenodd" 
+            d="M9 8c0 .55-.45 1-1 1s-1-.45-1-1 .45-1 1-1 1 .45 1 1Zm1.11 2.13.71.71C11.55 10.11 12 9.11 12 8c0-1.11-.45-2.11-1.18-2.84l-.71.71c.55.55.89 1.3.89 2.13 0 .83-.34 1.58-.89 2.13Zm-4.93.71.71-.71C5.34 9.58 5 8.83 5 8c0-.83.34-1.58.89-2.13l-.71-.71C4.45 5.89 4 6.89 4 8c0 1.11.45 2.11 1.18 2.84Zm7.05 1.41.71.71C14.21 11.69 15 9.94 15 8s-.79-3.69-2.06-4.96l-.71.71C13.32 4.84 14 6.34 14 8c0 1.66-.68 3.16-1.77 4.25Zm-9.17.71.71-.71C2.68 11.16 2 9.66 2 8c0-1.66.68-3.16 1.77-4.25l-.71-.71C1.79 4.31 1 6.06 1 8s.79 3.69 2.06 4.96Z"
+            fill-rule="evenodd"
+            />
+          </svg>
+
+        </button>
+
+        {/* National Geographic */}
+        <button className="LeftSideBarButton">
+          <img src={national} alt="National Geographic" className="SubscriptionIcon" />
+          <span className="SubscriptionText">National Geographic</span>
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            className="Subscription"
+          >
+            <path clip-rule="evenodd" 
+            d="M9 8c0 .55-.45 1-1 1s-1-.45-1-1 .45-1 1-1 1 .45 1 1Zm1.11 2.13.71.71C11.55 10.11 12 9.11 12 8c0-1.11-.45-2.11-1.18-2.84l-.71.71c.55.55.89 1.3.89 2.13 0 .83-.34 1.58-.89 2.13Zm-4.93.71.71-.71C5.34 9.58 5 8.83 5 8c0-.83.34-1.58.89-2.13l-.71-.71C4.45 5.89 4 6.89 4 8c0 1.11.45 2.11 1.18 2.84Zm7.05 1.41.71.71C14.21 11.69 15 9.94 15 8s-.79-3.69-2.06-4.96l-.71.71C13.32 4.84 14 6.34 14 8c0 1.66-.68 3.16-1.77 4.25Zm-9.17.71.71-.71C2.68 11.16 2 9.66 2 8c0-1.66.68-3.16 1.77-4.25l-.71-.71C1.79 4.31 1 6.06 1 8s.79 3.69 2.06 4.96Z"
+            fill-rule="evenodd"
+            />
+          </svg>
+
+        </button>
+
+        {/* Show more Section */}
+        <button className="LeftSideBarButton">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            className="IconStyle"
+          >
+            <path clip-rule="evenodd" 
+            d="M5.47 8.47c.293-.293.767-.293 1.06 0L12 13.94l5.47-5.47c.293-.293.767-.293 1.06 0 .293.293.293.767 0 1.06l-6 6-.53.53-.53-.53-6-6c-.293-.293-.293-.767 0-1.06Z"
+            fill-rule="evenodd"
+            />
+          </svg>
+          Show more
         </button>
 
       </aside>
