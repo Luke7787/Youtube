@@ -122,3 +122,11 @@
   max-width: 115px;
   min-width: 115px;
 }
+
+.explore_section{
+  color: white;
+  font-size: 0.93rem;
+  margin-left: 0.5rem;
+  transform: translateY(-5px);
+  margin-bottom: 3.5px;
+}
