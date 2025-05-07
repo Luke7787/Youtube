@@ -4,6 +4,13 @@
   min-height: 100vh;
 }
 
+aside {
+  height: 100vh;           /* Full viewport height */
+  overflow-y: auto;        /* Enables vertical scroll */
+  position: fixed;         /* So it stays on screen */
+  width: 225px;            /* Or whatever width you need */
+}
+
 .LeftSideBar{
   padding-left: 1rem;
   padding-top: 0.78rem;
@@ -25,6 +32,9 @@
   align-items: center;
   justify-content: flex-start;
   cursor: pointer;
+  font-weight: 400;
+  padding-top: 8px;
+  padding-bottom: 8px;
   font-weight: 400;
 }
 
@@ -64,18 +74,16 @@
 }
 
 .Divider {
-  border: none;
-  height: 1px;
-  background-color: #3f3f3f; /* a soft gray */
-  margin: 11px 0; /* some spacing above and below */
+  border-top: 1px solid rgba(255, 255, 255, 0.25); /* Lighter gray for the divider */
+  background-color: transparent; /* Transparent background */
+  margin: 11px 0; /* Some spacing above and below */
   transform: translateX(-4px);
   max-width: 13.3rem;
 }
 
 .Divider2 {
-  border: none;
-  height: 1px;
-  background-color: #3f3f3f; /* a soft gray */
+  border-top: 1px solid rgba(255, 255, 255, 0.25); /* Lighter gray for the divider */
+  background-color: transparent; /* Transparent background */
   margin: 13px 0 12px 0;
   transform: translateX(-18px);
   max-width: 14rem;

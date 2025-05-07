@@ -109,7 +109,7 @@ function App() {
         </button>
 
         {/* Section Divider */}
-        <hr className="Divider" />
+        <span className="Divider" />
 
         {/* YouTube's ">" Icon SVG */}
         <button className="LeftSideBarButton">
@@ -238,7 +238,7 @@ function App() {
         </button>
 
         {/* Section Divider */}
-        <hr className="Divider2" />
+        <span className="Divider2" />
 
         <h2 class = "subscription_section">Subscriptions</h2>
 
@@ -477,7 +477,7 @@ function App() {
       </>)}
 
       {/* Section Divider */}
-      <hr className="Divider2" />
+      <span className="Divider2" />
 
       {/* Explore Section */}
       <h3 class = "explore_section">Explore</h3>
@@ -699,7 +699,7 @@ function App() {
         </button>
 
         {/* Section Divider */}
-        <hr className="Divider2" />
+        <span className="Divider2" />
 
         {/* Explore Section */}
         <h4 class = "explore_section">More from YouTube</h4>
@@ -789,7 +789,7 @@ function App() {
           </button>
 
           {/* Section Divider */}
-          <hr className="Divider2" />
+          <span className="Divider2" />
 
           {/* Setting Section */}
 
@@ -866,7 +866,7 @@ function App() {
             </button>
 
           {/* Section Divider */}
-          <hr className="Divider2" />
+          <span className="Divider2" />
 
           {/* End Section */}
           <span className="end_section">
