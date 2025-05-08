@@ -20,7 +20,6 @@ function App() {
   const [showChannels, setShowChannels] = useState(false);
 
   return (
-    
 
     //HomePage
     <div className="HomePage">
@@ -891,6 +890,16 @@ function App() {
         <span className="ending">© 2025 Google LLC</span>
 
       </aside>
+
+      <main className="MainContent">
+        <div className="SearchContainer">
+        <input 
+          type="text" 
+          className="SearchBar" 
+          placeholder="Search" 
+        />
+        </div>
+      </main>
     </div>
   );
 }
