@@ -181,17 +181,33 @@ aside {
   margin-left: 250px;
 }
 
+.SearchContainer {
+  position: relative; /* Set relative positioning to the parent */
+  width: 36rem;
+}
+
 .SearchBar {
   margin-top: 8px;
   margin-left: 280px;
-  width: 36rem;
+  width: 35.75rem;
   padding: 10px;
   font-size: 16px;
   border-radius: 90px;
-  border: 1px solid rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   padding-left: 15px;
   outline: none;
   background-color: black;
   color: white;
 
+  /* Gradient for the right 10% */
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.10) 10.75%, black 10.75%)no-repeat;
+}
+
+.SearchIcon {
+  position: absolute;
+  right: -283px; /* Right padding inside the input */
+  top: 50%;
+  transform: translateY(-8px); /* Vertically center the icon */
+  color: white;
+  pointer-events: none; /* Make sure the icon doesn’t interfere with typing */
 }
