@@ -200,7 +200,7 @@ aside {
   color: white;
 
   /* Gradient for the right 10% */
-  background: linear-gradient(to left, rgba(255, 255, 255, 0.10) 10.75%, black 10.75%)no-repeat;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.10) 10.55%, black 10.55%)no-repeat;
   background-size: 598px 100%;
   background-clip: padding-box;
 }
@@ -213,3 +213,27 @@ aside {
   color: white;
   pointer-events: none; /* Make sure the icon doesn’t interfere with typing */
 }
+
+.vertical-line {
+  position: absolute;
+  width: 1px;               /* thin line */
+  height: 38px;            /* full viewport height, or adjust as needed */
+  background-color: rgba(255, 255, 255, 0.17);
+  top: 9px;                 /* start from top */
+  left: 815px;
+}
+
+.SearchText{
+  color: white;
+}
+
+.Icon {
+  position: absolute;
+  color: white;        
+  background-color: rgba(255, 255, 255, 0.17);
+  border-radius: 90px;
+  padding: 8px;
+  top: 8px; 
+  left: 71.55rem;
+}
+
