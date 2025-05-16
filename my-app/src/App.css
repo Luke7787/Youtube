@@ -193,7 +193,7 @@ aside {
   padding: 10px;
   font-size: 16px;
   border-radius: 90px;
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.17);
   padding-left: 15px;
   outline: none;
   background-color: black;
@@ -201,6 +201,8 @@ aside {
 
   /* Gradient for the right 10% */
   background: linear-gradient(to left, rgba(255, 255, 255, 0.10) 10.75%, black 10.75%)no-repeat;
+  background-size: 598px 100%;
+  background-clip: padding-box;
 }
 
 .SearchIcon {
