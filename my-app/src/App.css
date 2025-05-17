@@ -237,3 +237,101 @@ aside {
   left: 71.55rem;
 }
 
+.IconWrapper {
+  display: inline-block;
+}
+
+.Icon:hover{
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.TooltipText {
+  visibility: hidden;
+  opacity: 0;
+  width: max-content;
+  background-color:  rgba(255, 255, 255, 0.25);
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 4px 6px;
+  position: absolute;
+  z-index: 10;
+  white-space: nowrap;
+  transition: opacity 0.3s;
+  left: 1100px;
+  font-size: 12px;
+}
+
+.IconWrapper:hover .TooltipText {
+  visibility: visible;
+  opacity: 1;
+}
+
+.CreateButton{
+  position: absolute;
+  margin-top: -56px;
+  margin-left: 1215px;
+  background-color: rgba(255, 255, 255, 0.17);
+  border-radius: 90px;
+  padding-left: 0.5rem;
+  text-align: left;
+  font-size: 0.86rem;
+  color: white;
+  height: 2.25rem;
+  width: 98px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.CreateButton:hover{
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.CreateStyle {
+  margin-right: 0.4rem;
+  font-size: 14px;
+}
+
+.Notification {
+  position: absolute;
+  color: white;        
+  background-color: black;
+  border-radius: 90px;
+  padding: 8px;
+  top: 8px; 
+  left: 98.20rem;
+}
+
+.NotificationWrapper {
+  display: inline-block;
+}
+
+.Notification:hover{
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.TooltipText2 {
+  visibility: hidden;
+  opacity: 0;
+  width: max-content;
+  background-color:  rgba(255, 255, 255, 0.25);
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 4px 6px;
+  position: absolute;
+  z-index: 10;
+  white-space: nowrap;
+  transition: opacity 0.3s;
+  left: 1550px;
+  font-size: 12px;
+}
+
+.NotificationWrapper:hover .TooltipText2 {
+  visibility: visible;
+  opacity: 1;
+}
