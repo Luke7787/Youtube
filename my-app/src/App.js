@@ -964,6 +964,26 @@ function App() {
           </svg>
           <span className="TooltipText2">Notifications</span>
         </span>
+        <div class="Profile"></div>
+
+        <span className="Tags">
+          <div className="TagElement">All</div>
+          <div className="TagElement">Coding Time</div>
+          <div className="TagElement">Comedy</div>
+          <div className="TagElement">Documentaries</div>
+          <div className="TagElement">Education</div>
+          <div className="TagElement">Food</div>
+          <div className="TagElement">Gaming</div>
+          <div className="TagElement">Health</div>
+          <div className="TagElement">Live</div>
+          <div className="TagElement">Mixes</div>
+          <div className="TagElement">Music</div>
+          <div className="TagElement">New for you</div>
+          <div className="TagElement">Podcasts</div>
+          <div className="TagElement">Sports</div>
+          <div className="TagElement">Technology</div>
+          <div className="TagElement">Travel</div>
+        </span>
       </main>
 
     </div>
