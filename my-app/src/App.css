@@ -367,3 +367,69 @@ aside {
 .TagElement:hover{
     background-color: rgba(255, 255, 255, 0.25);
 }
+
+.videos{
+  margin-left: 14px;
+  margin-top: 34px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.videoElement{
+  border-radius: 10px;
+  color: white;
+  background-color: #d7ccc8;
+  width: 457px;
+  height: 260px;
+  margin-bottom: 93px;
+}
+
+.youtubeProfile{
+  margin-top: 272px;
+  width: 36px;
+  height: 36px;
+  background-color: #add8e6;
+  border-radius: 90px;
+}
+
+.videoTitle{
+  color: white;
+  margin-top: -35px;
+  margin-left: 47px;
+  font-size: 1rem;
+  font-weight: 550;
+}
+
+.channelSection{
+  display: flex;
+  gap: 4px;
+}
+
+.channelName{
+  color: white;
+  margin-top: 8px;
+  margin-left: 47px;
+  font-size: 0.85rem;
+  color: rgb(170, 170, 170);
+  font-weight: 500;
+}
+
+.VerifiedIcon {
+  color: rgb(170, 170, 170);
+  transform: translateY(8px);
+}
+
+.videoStats{
+  margin-left: 47px;
+  color: rgb(170, 170, 170); 
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-top: -2px;
+}
+
+.bigDot {
+  font-size: 1.75em; /* makes the dot 50% bigger */
+  vertical-align: middle; /* aligns it nicely with the text */
+  /* You can also tweak line-height or font-weight if needed */
+}
