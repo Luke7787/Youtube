@@ -891,7 +891,10 @@ function App() {
 
       </aside>
 
+      {/* main window section */}
       <main className="MainContent">
+
+        {/* setting up serach container */}
         <div className="SearchContainer">
           <input 
             type="text" 
@@ -928,6 +931,8 @@ function App() {
               fillRule="evenodd"
             />
           </svg>
+
+          {/* display text when hover on mic icon */}
           <span className="TooltipText">Search with your voice</span>
         </span>
         <button className="CreateButton">
@@ -962,10 +967,15 @@ function App() {
               fillRule="evenodd"
             />
           </svg>
+
+          {/* display text when hover on notifcations icon */}
           <span className="TooltipText2">Notifications</span>
         </span>
+
+        {/* temp profile circle */}
         <div class="Profile"></div>
 
+        {/* video tags */}
         <div className="Tags">
           <div className="TagElement">All</div>
           <div className="TagElement">Coding Time</div>
@@ -985,8 +995,10 @@ function App() {
           <div className="TagElement">Travel</div>
         </div>
 
+        {/* videos layout */}
         <div className="videos">
 
+          {/* first 6 videos */}
           <div className="videoElement">
             <div class="youtubeProfile"></div>
             <div className="videoTitle">video 1</div>
@@ -1118,7 +1130,95 @@ function App() {
             </div>
             <div className="videoStats">???K views <span className="bigDot">·</span> 1 day ago</div>
           </div>
+
+          <div className="videoSection">Top news</div>
+
+          <div className="videoElement">
+            <div class="youtubeProfile"></div>
+            <div className="videoTitle">news video 1</div>
+            <div className="channelSection">
+            <div className="channelName">Channel Name</div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg" 
+              fill="currentColor" 
+              height="14" 
+              viewBox="0 0 24 24" 
+              width="14" 
+              className="VerifiedIcon" 
+            >
+              <path clip-rule="evenodd" 
+                d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z" 
+                fill-rule="evenodd"
+              />
+            </svg>
+            </div>
+            <div className="videoStats">???K views <span className="bigDot">·</span> 1 day ago</div>
+          </div>
+
+          <div className="videoElement">
+            <div class="youtubeProfile"></div>
+            <div className="videoTitle">news video 2</div>
+            <div className="channelSection">
+            <div className="channelName">Channel Name</div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg" 
+              fill="currentColor" 
+              height="14" 
+              viewBox="0 0 24 24" 
+              width="14" 
+              className="VerifiedIcon" 
+            >
+              <path clip-rule="evenodd" 
+                d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z" 
+                fill-rule="evenodd"
+              />
+            </svg>
+            </div>
+            <div className="videoStats">???K views <span className="bigDot">·</span> 1 day ago</div>
+          </div>
+
+          <div className="videoElement">
+            <div class="youtubeProfile"></div>
+            <div className="videoTitle">news video 3</div>
+            <div className="channelSection">
+            <div className="channelName">Channel Name</div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg" 
+              fill="currentColor" 
+              height="14" 
+              viewBox="0 0 24 24" 
+              width="14" 
+              className="VerifiedIcon" 
+            >
+              <path clip-rule="evenodd" 
+                d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z" 
+                fill-rule="evenodd"
+              />
+            </svg>
+            </div>
+            <div className="videoStats">???K views <span className="bigDot">·</span> 1 day ago</div>
+          </div>
+
+          <div className="videoShowMore">Show more
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+            >
+              <path clip-rule="evenodd" 
+              d="m22 16.28-6.35 6.35-6.37-6.35.72-.71 5.64 5.65 5.65-5.65z"
+              fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+
+          <div className="showMoreSectionDivider"></div>
+          <div className="showMoreSectionDivider2"></div>
+        
         </div>
+        
       </main>
 
     </div>

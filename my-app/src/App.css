@@ -355,6 +355,7 @@ aside {
 }
 
 .TagElement{
+  cursor: pointer;
   padding: 8px 12px;
   color: white;
   font-size: 14px;
@@ -432,4 +433,51 @@ aside {
   font-size: 1.75em; /* makes the dot 50% bigger */
   vertical-align: middle; /* aligns it nicely with the text */
   /* You can also tweak line-height or font-weight if needed */
+}
+
+.videoSection{
+  font-family: "Roboto","Arial",sans-serif;
+  margin-top: 50px;
+  margin-left: 8px;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 550;
+  width: 100%;
+}
+
+.videoShowMore{
+  font-size: 14px;
+  font-weight: 525;
+  color: white;
+  margin-bottom: 800px;
+  margin-left: 522px;
+  margin-top: -19px;
+  border: 1px solid rgba(255, 255, 255, 0.25); 
+  border-radius: 90px;
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-bottom: 10px;
+}
+
+.videoShowMore:hover{
+  background-color: rgba(255, 255, 255, 0.17);
+}
+
+.showMoreSectionDivider{
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  position: absolute;
+  color: white;
+  width: 522px;
+  top: 1330px;
+  overflow: hidden;
+}
+
+.showMoreSectionDivider2{
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  position: absolute;
+  color: white;
+  left: 1147.5px;
+  width: 520px;
+  top: 1330px;
+  overflow: hidden;
 }
